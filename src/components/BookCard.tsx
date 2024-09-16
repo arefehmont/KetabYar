@@ -24,7 +24,7 @@ const BookCard = ({ book }: { book: Book }) => {
       dispatch(removeBookFromShelf(id));
     };
   return (
-    <Card className='w-[230px]' sx={{ maxWidth: 345 }}>
+    <Card className='w-[240px]' sx={{ maxWidth: 345 }}>
       <img 
       style={{ width: "200px", height: "200px" }} 
       className='pl-[10%] pt-[10%]'
